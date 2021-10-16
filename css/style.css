@@ -1,0 +1,224 @@
+/* heebo-regular - latin */
+@font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/heebo-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/heebo-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* heebo-700 - latin */
+  @font-face {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/heebo-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/heebo-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  html{
+      box-sizing: border-box;
+  }
+  *,*::before, *::after{
+      box-sizing: inherit;
+  }
+  body{
+      font-family: 'Heebo';
+      font-style: normal;
+      font-size: 16px;
+      line-height: normal;
+      font-weight: normal;
+      color: #000000;
+      background-color: rgba(96, 185, 206, 0.2);
+  }
+  .wrapper{
+    max-width: 1040px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section{
+    margin-top: 25px;
+  }
+  .block{
+    background: rgba(109, 156, 166, 0.6);
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /*Header styles*/
+  .header{
+    background-color:rgba(32, 102, 118, 0.55);
+    width: 100%;
+    height: 80px;
+  }
+  .header_items{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_link{
+    font-weight:bold;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+  }
+  .header_contacts{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: right;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  /*Personal information*/
+  
+  .info{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+  }
+  .info_fio{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    color: #000000;
+  }
+  .info_description{
+    max-width: 450px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+    margin-top: 23px;
+  }
+  .info_image{
+    width: 240px;
+    height: 240px;
+  }
+  /*Навыки, умения*/
+
+  .skill{
+    width: 500px;
+    height: 200px;
+  }
+  .skill:last-child{
+    margin-left: 20px;
+  }
+  .font_title
+  {
+    max-width: 280px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+  }
+  .skill_text
+  {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 20px;
+  }
+
+  /*Записи*/
+  .notes{
+    width: 100%;
+    height: 720px;
+    background: rgba(109, 156, 166, 0.6);
+    border-radius: 20px;
+  }
+  .notes_header{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+  }
+  .open_all{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: right;
+    color: #007B96;
+    text-decoration: none;
+  }
+  .list_notes{
+    margin-top: 20px;
+  }
+  /*Запись*/
+  .note_item{
+    display: flex;
+    justify-content:left;
+    align-content: center;
+    margin-top: 40px;
+  }
+  .note_item:first-child{
+    margin-top: 0px;
+  }
+  .note_description{
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    margin-left: 20px;
+  }
+  .note_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    text-decoration: none;
+  }
+  .date{
+    width: 157px;
+    height: 25px;
+    background: #000000;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .date_text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+  .note_text{
+    max-width: 685px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 10px;
+  }
+  /*Футер*/
+  .footer{
+    background-color:rgba(32, 102, 118, 0.55);
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+    
+  }
+  .all_right_reserved{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .links{
+    width: 277px;
+    height: 40px;
+    display: flex;
+    justify-content:space-between;
+  }
